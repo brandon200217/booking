@@ -1,0 +1,41 @@
+.bannerPrincipal{
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 59 149 / var(--tw-bg-opacity));
+    height: 210px 
+}
+
+.contenidoBanner{
+    display: block;
+    max-width: 80rem;
+    margin: auto;
+    padding: 1.5rem;
+    text-align: start;
+}
+
+.tituloPincipal{
+    color: white;
+    padding: 4px 0px 0px 0px;
+    font-family: 'Avenir Next",BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif';
+}
+
+
+.infoTitulo{
+    color: white;
+    padding: 4px 0px 0px 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+@media (min-width: 1024px) {
+    .contenidoBanner {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .infoTitulo{
+        margin-bottom: 64px
+    }
+}

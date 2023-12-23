@@ -1,0 +1,112 @@
+
+.buscadorPrincipal{
+    max-width: 80rem;
+    margin: auto;
+    top: 0px;
+}
+
+.buscadorSecciones{
+    display: flex;
+    flex-direction: row;
+    max-width: 80rem;
+    position: relative;
+    top: -25px;
+    border-radius: 8px;
+    background-color:   #ffb700
+}
+
+
+.iconsBuscador{
+    display: flex;
+    gap: 10px;
+}
+
+.iconsBuscador svg{
+    width: 1.2rem;
+}
+
+.filtrosExtras{
+    display: flex;
+    gap: 20px;
+}
+
+.filtroCheck{
+    display: flex;
+    align-items: center;
+}
+
+.filtrosExtras input{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    position: relative;
+    color:#fff;
+    box-sizing: border-box;
+}
+
+
+.filtrosExtras span{
+    margin-left: 10px;
+}
+
+/* .close{
+    position: absolute;
+    left: 18.2rem;
+} */
+
+.buscadorSecciones div{
+    border-radius: 8px;
+    flex-basis: 30%;
+    background-color: white;
+    padding: 0.9rem;
+    box-shadow: 0 2px 8px 0 rgba(26,26,26,0.16);
+    margin: 4px 3px 4px 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulos{
+    width: 230px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.buscadorSecciones div:last-child{
+    border-radius: 8px;
+    padding: 0px;
+    flex-basis: 10%;
+
+
+}
+
+.buscadorSecciones div:hover{
+    border-radius: 8px;
+    box-shadow: 0 0 0 1.3px #f56700;
+}
+
+
+.buttonBuscar{
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    padding: 4px 24px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #006ce4;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 1024px){
+    .buscadorPrincipal {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}

@@ -1,0 +1,195 @@
+.newsletter{
+    --tw-bg-opacity: 1;
+    background-color: #00224f;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenidoNewsletter{
+    text-align: center;
+    color: white;
+}
+
+.contenidoNewsletter p{
+    text-align: center;
+    color: #bdbdbd;
+}
+
+
+.formularioNewsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem
+}
+
+
+.formularioNewsletter input{
+    font-size: 20px;
+    line-height: 28px;
+    color: #6b6b6b;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 100;
+    padding: 10px;
+    width: 25rem;
+}
+
+
+.formularioNewsletter button{
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0;
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    height: 48px;
+    color: #fff;
+    background-color: #006ce4;
+    margin: 0 5px;
+    width: 10rem;
+}
+
+
+.bookingFooter{
+    --tw-bg-opacity: 1;
+    background-color:#003b95;
+    height: 60px; 
+    font-size:14px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+
+.bookingFooter button{
+    width: 11rem;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: white;
+    padding: 0 15px;  
+}
+
+.bookingFooter button:hover{
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+.bookingFooter ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    font-weight: bold;
+}
+
+.bookingFooter li{
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    border-right: 1px solid #003580;
+}
+
+.bookingFooter li:hover{
+    background: #003580;
+}
+
+
+.bookingFooter li a{
+    text-decoration: underline;
+
+}
+
+.footerTopPartners{
+    height: 500px;
+    max-width: 1094px;
+    min-width: 620px;
+    margin: 0 auto;
+    padding: 0 8px;
+    background-color:#fff;
+
+}
+.footerTopMenu{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 6rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footerTopMenu li{
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 14px;
+    font-size: 13px;
+    white-space: normal!important;
+    list-style-type: none;
+    color: #006ce4;
+}
+
+.footerconstraintInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+.region{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.accederIntranet{
+    display: flex;
+    justify-content: center;
+    color: #006ce4;
+    margin-bottom: 20px;
+    font-size:15px ;
+}
+
+.copy{
+    display: flex;
+    justify-content: flex-start;
+    font-size:11px ;
+    padding: 1em 0;
+    margin-bottom: 15px;
+    
+}
+
+.footerLogos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding-bottom: 20px 
+}
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    font-size:12px ;
+    padding: 1em 0;
+}
