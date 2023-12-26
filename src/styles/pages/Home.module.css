@@ -322,12 +322,12 @@
 
 .tendenciasPrimarias img:hover{
     border: 1px solid #febb02;
-    filter:drop-shadow(8px 8px 10px gray)
+    /* filter:drop-shadow(8px 8px 10px gray) */
 }
 
 .tendenciasSecundarias img:hover{
     border: 1px solid #febb02;
-    filter:drop-shadow(8px 8px 10px gray)
+    /* filter:drop-shadow(8px 8px 10px gray) */
 }
 
 
@@ -414,6 +414,7 @@
     background-color: #ffb700;
     border-radius: 50%;
     box-sizing: border-box;
+    
 }
 
 .sol::before {
@@ -437,6 +438,59 @@
 
 }
 
+
+.tendenciasPrimarias p{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.tendenciasSecundarias p{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.iconAzulContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.iconAzulContent p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.iconAzulContent a{
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px;
+    text-align: center;
+    color: #006ce4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
 /* .iconAzul::before {
     content: "";
     display: block;

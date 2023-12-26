@@ -12,7 +12,7 @@ function Footer() {
                     <p>Registrate para que te enviemos las mejores ofertas</p>
                 </div>
                 <div className={FooterStyle.formularioNewsletter}>
-                    <input type='text' />
+                    <input type='text' placeholder='Tu dirección de e-mail' />
                     <button type='button'>¡Suscribite!</button>
 
                 </div>

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import HomeStyle from '@/styles/pages/Home.module.css'
+import TextTransitionOP from './components/TextTransition'
 
 export default function Home() {
   return (
@@ -42,26 +43,41 @@ export default function Home() {
 
         <article>
           <div className={HomeStyle.containerTendencias}>   
-            <h2>Destinos que son tendencia</h2>
-            <p>Las opciones más elegidas por personas de Argentina</p>
+            <h2 className='mb-2'>Destinos que son tendencia</h2>
+            <p className='mb-2'>Las opciones más elegidas por personas de Argentina</p>
               <div className={HomeStyle.tendenciasPrimarias}>
-                <div>                  
-                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/664052.jpg?k=e0c8a97ea4cd0ab7e3757392c8fb02708767377e288a6c3e0889d22497e8e8f1&amp;o=" role="presentation" loading="lazy"></img>
+                <div>  
+                  <span>
+                    <p>Buenos Aires</p>
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/664052.jpg?k=e0c8a97ea4cd0ab7e3757392c8fb02708767377e288a6c3e0889d22497e8e8f1&amp;o=" role="presentation" loading="lazy"></img>
+                  </span>                
                 </div>
                 <div>
-                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/664200.jpg?k=91939c766d293b86038e54714d7d0711888aec8513a494ce3ed4976247712625&amp;o=" role="presentation" loading="lazy"></img>
+                  <span>
+                    <p>Mar de Plata</p>
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/664200.jpg?k=91939c766d293b86038e54714d7d0711888aec8513a494ce3ed4976247712625&amp;o=" role="presentation" loading="lazy"></img>
+                  </span>   
                 </div>
               </div>
               <div className={HomeStyle.tendenciasSecundarias}>
                 <div>
-                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/664434.jpg?k=a0cb0f948924bdcea039a5039afc78096d324afe4d3395ec68d09536fc0daa23&amp;o=" role="presentation" loading="lazy"></img>
+                  <span>
+                    <p>San Carlos de Bariloche</p>
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/664434.jpg?k=a0cb0f948924bdcea039a5039afc78096d324afe4d3395ec68d09536fc0daa23&amp;o=" role="presentation" loading="lazy"></img>
+                  </span>  
 
                 </div>
                 <div>
-                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/664125.jpg?k=3be2e16a1d2305149375892729e5daa1ea89e17272e2e438bb5093f0964c8b5d&amp;o=" role="presentation" loading="lazy"></img>
+                  <span>
+                    <p>Cordoba</p>
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/664125.jpg?k=3be2e16a1d2305149375892729e5daa1ea89e17272e2e438bb5093f0964c8b5d&amp;o=" role="presentation" loading="lazy"></img>
+                  </span>  
                 </div>
                 <div>
-                  <img src="https://cf.bstatic.com/xdata/images/city/600x600/664190.jpg?k=9dce1821c3fbcbca4359a447c9be0ff0d92d097341fb2df26902cfc0d0f4cec3&amp;o=" role="presentation" loading="lazy"></img>
+                  <span>
+                    <p>Mendoza</p>
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/664190.jpg?k=9dce1821c3fbcbca4359a447c9be0ff0d92d097341fb2df26902cfc0d0f4cec3&amp;o=" role="presentation" loading="lazy"></img>
+                  </span>  
                 </div>
               </div>
           </div>
@@ -360,7 +376,20 @@ export default function Home() {
           <div className={HomeStyle.sol}></div>
 
           <div className={HomeStyle.iconAzul}>
-
+            <div className={HomeStyle.iconAzulContent}>
+              <p>Encontrá</p>
+              <TextTransitionOP font={"Avenir Next"}
+              texts={[
+                'departamentos',
+                'villas',
+                'casas y departamentos',
+                'apartahoteles',
+              ]}/>
+              <p>Para tu próximo viaje</p>        
+              <a href='#'>
+                <span>Descubrir casas y departamentos</span>
+              </a>
+            </div>
           </div>
           <picture>
             <img src="https://cf.bstatic.com/psb/capla/static/js/../../static/media/bh_aw_cpg_main_image.b4347622.png" role="presentation" loading="lazy"></img>
